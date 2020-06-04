@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		E914FE0824857DE100B068B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914FE0724857DE100B068B0 /* AppDelegate.swift */; };
 		E914FE0A24857DE100B068B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914FE0924857DE100B068B0 /* SceneDelegate.swift */; };
-		E914FE0C24857DE100B068B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E914FE0B24857DE100B068B0 /* ViewController.swift */; };
 		E914FE0F24857DE100B068B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E914FE0D24857DE100B068B0 /* Main.storyboard */; };
 		E914FE1224857DE100B068B0 /* TrackListApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E914FE1024857DE100B068B0 /* TrackListApp.xcdatamodeld */; };
 		E914FE1424857DE700B068B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E914FE1324857DE700B068B0 /* Assets.xcassets */; };
 		E914FE1724857DE700B068B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E914FE1524857DE700B068B0 /* LaunchScreen.storyboard */; };
+		E924154F2489809C0041FAC3 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E924154E2489809C0041FAC3 /* TrackListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E914FE0424857DE100B068B0 /* TrackListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E914FE0724857DE100B068B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E914FE0924857DE100B068B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E914FE0B24857DE100B068B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E914FE0E24857DE100B068B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E914FE1124857DE100B068B0 /* TrackListApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackListApp.xcdatamodel; sourceTree = "<group>"; };
 		E914FE1324857DE700B068B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E914FE1624857DE700B068B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E914FE1824857DE700B068B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E924154E2489809C0041FAC3 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			children = (
 				E914FE0724857DE100B068B0 /* AppDelegate.swift */,
 				E914FE0924857DE100B068B0 /* SceneDelegate.swift */,
-				E914FE0B24857DE100B068B0 /* ViewController.swift */,
+				E924154E2489809C0041FAC3 /* TrackListViewController.swift */,
 				E914FE0D24857DE100B068B0 /* Main.storyboard */,
 				E914FE1324857DE700B068B0 /* Assets.xcassets */,
 				E914FE1524857DE700B068B0 /* LaunchScreen.storyboard */,
@@ -141,9 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E914FE0C24857DE100B068B0 /* ViewController.swift in Sources */,
 				E914FE0824857DE100B068B0 /* AppDelegate.swift in Sources */,
 				E914FE0A24857DE100B068B0 /* SceneDelegate.swift in Sources */,
+				E924154F2489809C0041FAC3 /* TrackListViewController.swift in Sources */,
 				E914FE1224857DE100B068B0 /* TrackListApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
